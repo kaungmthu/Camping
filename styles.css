@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #556B2F;
+    --text-primary: #121212;
+    --text-secondary: #6c757d;
+    --bg-light: #f5f5f5;
+    --bg-white: #ffffff;
+    --bg-dark: #121212;
+}
+
+body {
+    color: var(--text-primary);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('images/camping.jfif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+/* Feature Points */
+.feature-point {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: var(--bg-white);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-point i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* Product Cards */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('images/camping.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Custom Button Styles */
+.btn-primary {
+    background-color: #4A5f29;
+    border-color: #4A5F29;
+}
+
+.btn-primary:hover {
+    background-color: #4A5F29; 
+    border-color: #4A5F29;    
+}
+
+.add-to-cart:hover{
+    background-color: rgb(135, 207, 135);
+}
+/* Footer Styles */
+footer {
+    background-color: var(--bg-dark);
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: white !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .feature-point {
+        margin-bottom: 20px;
+    }
+}

@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Camping</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">Camp & Nature</a>
@@ -28,50 +32,39 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero-section position-relative">
-        <div class="hero-image"></div>
+        <div class="hero-image" style="background-image: url('images/camping.jfif');"></div>
         <div class="container">
             <div class="row min-vh-75 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold">Explore Our Wide Range of Products</h1>
-                    <p class="lead mb-4">Find everything you need for your next adventure, from tents to cooking gear.</p>
-                    <a href="#products" class="btn btn-primary btn-lg">View All Products</a>
+                    <h1 class="display-4 fw-bold">Explore Our Camping Collection</h1>
+                    <p class="lead mb-4">Top-quality gear for unforgettable outdoor adventures. Built for nature lovers.</p>
+                    <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Feature Highlights -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5">Our Top Categories</h2>
-            <div class="row g-4 text-center">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/tent.avif" class="card-img-top" alt="Tents">
-                        <div class="card-body">
-                            <h5 class="card-title">Tents</h5>
-                            <p class="card-text">Shelter for every adventure.</p>
-                            <a href="#tents-products" class="btn btn-outline-primary">Shop Tents</a>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-shield-check display-4 mb-3"></i>
+                            <h3>Best Quality Guarantee</h3>
+                            <p class="text-muted">Tested for rugged outdoor adventures.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/sleepingcategory.jfif" class="card-img-top" alt="Sleeping Gear">
-                        <div class="card-body">
-                            <h5 class="card-title">Sleeping Gear</h5>
-                            <p class="card-text">Comfortable rest under the stars.</p>
-                            <a href="#sleeping-products" class="btn btn-outline-primary">Shop Sleeping</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/cookingcategory.avif" class="card-img-top" alt="Cooking Gear">
-                        <div class="card-body">
-                            <h5 class="card-title">Cooking Gear</h5>
-                            <p class="card-text">Whip up meals in the wild.</p>
-                            <a href="#cooking-products" class="btn btn-outline-primary">Shop Cooking</a>
+                <div class="col-md-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-truck display-4 mb-3"></i>
+                            <h3>Fast Delivery</h3>
+                            <p class="text-muted">Get your gear ready before your next trip.</p>
                         </div>
                     </div>
                 </div>
@@ -79,128 +72,320 @@
         </div>
     </section>
 
-    <section class="py-5" id="products">
+    <!-- Best Product Highlight -->
+    <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">All Products</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col" id="tents-products">
-                    <div class="card h-100">
-                        <img src="images/1PersonCampingTent.jpg" class="card-img-top" alt="4 Person Camping Tent">
-                        <div class="card-body">
-                            <h5 class="card-title">1 Person Camping Tent</h5>
-                            <p class="card-text">Spacious and durable, perfect for families.</p>
-                            <p class="card-text fw-bold">$129.99</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+            <h2 class="text-center mb-5">Gear Up with Our Best Seller</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center">
+                    <img src="images/tent.avif" alt="Premium Camping Tent" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="feature-point">
+                                <i class="bi bi-shield"></i>
+                                <h4>Durable Material</h4>
+                                <p>Built to last</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature-point">
+                                <i class="bi bi-feather"></i>
+                                <h4>Lightweight Design</h4>
+                                <p>Easy to carry</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature-point">
+                                <i class="bi bi-cloud-sun"></i>
+                                <h4>Weather Resistant</h4>
+                                <p>All-season protection</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature-point">
+                                <i class="bi bi-compass"></i>
+                                <h4>Adventure Ready</h4>
+                                <p>Ready when you are</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/2PersonCampingTent.jpg" class="card-img-top" alt="2 Person Backpacking Tent">
-                        <div class="card-body">
-                            <h5 class="card-title">2 Person Camping Tent</h5>
-                            <p class="card-text">Lightweight and compact for solo or duo trips.</p>
-                            <p class="card-text fw-bold">$89.99</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/3PersonCampingTent3.jpg" class="card-img-top" alt="Family Cabin Tent">
-                        <div class="card-body">
-                            <h5 class="card-title">3 Person Camping Tent</h5>
-                            <p class="card-text">Large and comfortable for extended family camping.</p>
-                            <p class="card-text fw-bold">$249.99</p>
-                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col" id="sleeping-products">
+    <!-- Product Categories -->
+    <section id="products" class="py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Camping Gear Collection</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
                     <div class="card h-100">
-                        <img src="images/sleepingbag1.jpg" class="card-img-top" alt="Mummy Sleeping Bag">
+                        <img src="images/1PersonCampingTent.jpg" class="card-img-top" alt="Premium Tent">
                         <div class="card-body">
-                            <h5 class="card-title">Mummy Sleeping Bag</h5>
-                            <p class="card-text">Warm and cozy for cold nights, lightweight.</p>
-                            <p class="card-text fw-bold">$79.99</p>
+                            <h5 class="card-title">Premium 1-Person Tent</h5>
+                            <p class="card-text fw-bold">$38.23</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3">
                     <div class="card h-100">
-                        <img src="images/sleepingpad.jpg" class="card-img-top" alt="Inflatable Sleeping Pad">
+                        <img src="images/2PersonCampingTent.jpg" class="card-img-top" alt="Premium Tent">
                         <div class="card-body">
-                            <h5 class="card-title">Inflatable Sleeping Pad</h5>
-                            <p class="card-text">Provides extra comfort and insulation from the ground.</p>
-                            <p class="card-text fw-bold">$49.99</p>
+                            <h5 class="card-title">Premium 2-Person Tent</h5>
+                            <p class="card-text fw-bold">$51.81</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3">
                     <div class="card h-100">
-                        <img src="images/sleepingbagyouth.webp" class="card-img-top" alt="Youth Sleeping Bag">
+                        <img src="images/3PersonCampingTent3.jpg" class="card-img-top" alt="Premium Tent">
                         <div class="card-body">
-                            <h5 class="card-title">Youth Sleeping Bag</h5>
-                            <p class="card-text">Designed for younger adventurers, comfortable and fun.</p>
+                            <h5 class="card-title">Premium 3-Person Tent</h5>
+                            <p class="card-text fw-bold">$59.26</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/4PersonCampingTent4.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium 4-Person Tent</h5>
+                            <p class="card-text fw-bold">$69.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/SolarCampingLamp.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Solar Camping Lamp</h5>
+                            <p class="card-text fw-bold">$24.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/ColemanCampingLamp.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Coleman Camping Lamp</h5>
+                            <p class="card-text fw-bold">$34.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/BatteryCampingLantern.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Battery Camping Lantern</h5>
+                            <p class="card-text fw-bold">$22.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/RechargeableCampingLamp.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Rechargeable Camping Lamp</h5>
+                            <p class="card-text fw-bold">$32.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sleepingbag1.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">$28.36</p>
+                            <h5 class="card-title">Sleeping Bag</h5>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sleepingbag2.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Sleeping Bag</h5>
+                            <p class="card-text fw-bold">$28.36</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sleepingbag3.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Sleeping Bag</h5>
+                            <p class="card-text fw-bold">$29.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sleepingbag4.jpg" class="card-img-top" alt="Premium Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Sleeping Bag</h5>
+                            <p class="card-text fw-bold">$29.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Must-Have Camping Accessories</h2>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/stakes.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Stakes</h5>
+                            <p class="card-text fw-bold">$21.24</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/bottle.jfif" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Insulated Bottle</h5>
+                            <p class="card-text fw-bold">$12.21</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/binocular.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Bibicular</h5>
+                            <p class="card-text fw-bold">$38.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/boots.avif" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Boot</h5>
+                            <p class="card-text fw-bold">$45.21</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/foldingchair.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Folding Chair</h5>
+                            <p class="card-text fw-bold">$38.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/foldingtable.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Folding Table</h5>
+                            <p class="card-text fw-bold">$33.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/hammer.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Hammer</h5>
+                            <p class="card-text fw-bold">$11.37</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/pot.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Pot</h5>
+                            <p class="card-text fw-bold">$25.99</p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sweater.jpg" class="card-img-top" alt="Water Bottle">
+                        <div class="card-body">
+                            <h5 class="card-title">Sweater</h5>
                             <p class="card-text fw-bold">$39.99</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
-
-                <div class="col" id="cooking-products">
+                <div class="col-6 col-md-3">
                     <div class="card h-100">
-                        <img src="images/campstove.jpg" class="card-img-top" alt="Portable Camp Stove">
+                        <img src="images/hat.jpg" class="card-img-top" alt="Water Bottle">
                         <div class="card-body">
-                            <h5 class="card-title">Portable Camp Stove</h5>
-                            <p class="card-text">Compact and efficient for cooking delicious camp meals.</p>
-                            <p class="card-text fw-bold">$65.00</p>
+                            <h5 class="card-title">Hat</h5>
+                            <p class="card-text fw-bold">$19.99</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <div class="card h-100">
-                        <img src="images/cookingset.webp" class="card-img-top" alt="Camping Cookware Set">
+                        <img src="images/shovel.jpg" class="card-img-top" alt="Water Bottle">
                         <div class="card-body">
-                            <h5 class="card-title">Camping Cookware Set</h5>
-                            <p class="card-text">Everything you need for camp cooking, lightweight and stackable.</p>
-                            <p class="card-text fw-bold">$55.00</p>
+                            <h5 class="card-title">Shovel</h5>
+                            <p class="card-text fw-bold">$29.99</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <div class="card h-100">
-                        <img src="images/cooler.webp" class="card-img-top" alt="Insulated Cooler">
+                        <img src="images/knife1.jpg" class="card-img-top" alt="Water Bottle">
                         <div class="card-body">
-                            <h5 class="card-title">Insulated Cooler</h5>
-                            <p class="card-text">Keeps your food and drinks cold for days.</p>
-                            <p class="card-text fw-bold">$99.00</p>
+                            <h5 class="card-title">Knife</h5>
+                            <p class="card-text fw-bold">$12.36</p>
                             <button class="btn btn-primary add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
 
-    <!-- <section class="py-5 bg-primary text-white text-center">
-        <div class="container">
-            <h2>Ready for Your Next Adventure?</h2>
-            <p class="lead mb-4">Browse our full collection and gear up for unforgettable experiences.</p>
-            <a href="product.html" class="btn btn-light btn-lg">Shop All Products</a>
-        </div>
-    </section> -->
-
+    <!-- Newsletter Section -->
     <section class="newsletter-section py-5 text-white position-relative">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <h2 class="mb-4">Subscribe to Our Newsletter</h2>
+                    <h2 class="mb-4">Join Our Camping Community</h2>
                     <form class="newsletter-form">
                         <div class="input-group mb-3">
                             <input type="email" class="form-control" placeholder="Enter your email">
@@ -212,6 +397,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row">
@@ -244,6 +430,7 @@
         </div>
     </footer>
 
+    <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="product.js"></script>
 </body>

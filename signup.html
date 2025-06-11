@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Camping</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Camp & Nature</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html"><i class="bi bi-cart"></i></a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-2 active" href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative">
+        <div class="hero-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/camping.jfif') center/cover;"></div>
+        <div class="container">
+            <div class="row min-vh-75 align-items-center">
+                <div class="col-lg-6 text-white">
+                    <h1 class="display-4 fw-bold">Join the Adventure</h1>
+                    <p class="lead mb-4">Create your Camping account and be the first to know about new gear and exclusive offers.</p>
+                    <a href="#signup-form" class="btn btn-primary btn-lg">Sign Up Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-tag-fill display-4 mb-3 text-primary"></i>
+                            <h3>Exclusive Deals</h3>
+                            <p class="text-muted">Access member-only promotions and offers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-people-fill display-4 mb-3 text-primary"></i>
+                            <h3>Adventure Community</h3>
+                            <p class="text-muted">Connect with outdoor enthusiasts like you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Sign Up Section -->
+    <section class="py-5" id="signup-form">
+        <div class="container">
+            <h2 class="text-center mb-5">Create Your Account</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/view.jfif" alt="Backpacker" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <form class="p-4 bg-light rounded shadow-sm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <label class="form-check-label" for="terms">I agree to the Terms and Conditions</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Join Camping?</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/early.jfif" class="card-img-top" alt="Early Access">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Early Access</h5>
+                            <p class="card-text">Be first to shop new gear drops</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/adventure.jfif" class="card-img-top" alt="Adventure Tips">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Adventure Tips</h5>
+                            <p class="card-text">Get personalized outdoor advice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/customer.jfif" class="card-img-top" alt="Special Discounts">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Special Discounts</h5>
+                            <p class="card-text">Exclusive member-only deals</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/gear.avif" class="card-img-top" alt="Gear Recommendations">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Gear Guides</h5>
+                            <p class="card-text">Expert equipment advice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Gear Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Start Your Journey with the Right Gear</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/tent.avif" class="card-img-top" alt="Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Adventure Tent</h5>
+                            <p class="card-text">$299.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/boots.avif" class="card-img-top" alt="Boots">
+                        <div class="card-body">
+                            <h5 class="card-title">Hiking Boots</h5>
+                            <p class="card-text">$149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/stove.avif" class="card-img-top" alt="Stove">
+                        <div class="card-body">
+                            <h5 class="card-title">Camping Stove</h5>
+                            <p class="card-text">$79.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/sleepingbag.jpg" class="card-img-top" alt="Sleeping Bag">
+                        <div class="card-body">
+                            <h5 class="card-title">Sleeping Bag</h5>
+                            <p class="card-text">$129.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5 text-white position-relative" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/about.jfif') center/cover;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2 class="mb-4">Get Inspired for Your Next Trip</h2>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-4">Camping</h4>
+                    <p>Your trusted source for high-quality camping gear and outdoor equipment. Making adventures possible since 2023.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Home</a></li>
+                        <li><a href="about.html" class="text-white-50">About</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                        <li><a href="product.html" class="text-white-50">Products</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i>09 257775850</li>
+                        <li class="mb-2"><i class="bi bi-envelope me-2"></i>Kaung2332006@gmail.com</li>
+                        <li><i class="bi bi-geo-alt me-2"></i>Yangon,Myanmar</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">© Camping 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
